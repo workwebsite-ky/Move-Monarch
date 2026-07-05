@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Move Monarch Transportation</title>
+  <meta name="description" content="Contact Move Monarch to book a premium transportation service, request a quote, or ask our team anything. We respond within the hour." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-crown">♛</span>
+        <span class="logo-text">MOVE <strong>MONARCH</strong></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav-cta">Book Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <img src="https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=1600&q=80" alt="Luxury car at night" />
+      <div class="page-hero-overlay"></div>
+    </div>
+    <div class="page-hero-content fade-up">
+      <div class="section-tag light">Get in Touch</div>
+      <h1>Contact <span class="gold">Us</span></h1>
+      <p>Book, inquire, or request a custom quote — we respond fast</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section section-pad">
+    <div class="container contact-layout">
+
+      <!-- INFO SIDEBAR -->
+      <div class="contact-info fade-left">
+        <div class="section-tag">Reach Us</div>
+        <h2>We're Ready <em>When You Are</em></h2>
+        <p>Our team is available around the clock to answer questions, confirm bookings, and build custom packages for your needs.</p>
+
+        <div class="info-items">
+          <div class="info-item">
+            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:contactglanders@gmail.com">contactglanders@gmail.com</a>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+10000000000">+1 (000) 000-0000</a>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>Availability</h4>
+              <span>24 hours a day, 365 days a year</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/10000000000" target="_blank">Message Us Instantly</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links contact-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="contact-form-wrap fade-right">
+        <form class="contact-form" id="contactForm" action="mailto:contactglanders@gmail.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name *</label>
+              <input type="text" id="fname" name="First Name" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name *</label>
+              <input type="text" id="lname" name="Last Name" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="Email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="Phone" placeholder="+1 (000) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="Service">
+              <option value="">Select a service...</option>
+              <option>Executive Transfer</option>
+              <option>Airport Transfer</option>
+              <option>Relocation & Moving</option>
+              <option>Freight & Logistics</option>
+              <option>Event Transportation</option>
+              <option>Secure Transport</option>
+              <option>Corporate / Enterprise</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="Message" rows="5" placeholder="Tell us about your transportation needs — dates, locations, special requirements..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold full-width">Send Message <i class="fas fa-arrow-right"></i></button>
+          <p class="form-note">We respond within 60 minutes during business hours and within 2 hours overnight.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="map-section">
+    <div class="map-wrapper">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2!2d-73.9!3d40.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDAlNDUnMDAuMCJOIDczwrA1NCcwMC4wIlc!5e0!3m2!1sen!2sus!4v1"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="Move Monarch Location">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-crown">♛</span>
+            <span class="logo-text">MOVE <strong>MONARCH</strong></span>
+          </div>
+          <p>Premium transportation for those who demand excellence. Available 24/7.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Executive Transfers</a></li>
+            <li><a href="services.html">Airport Transfers</a></li>
+            <li><a href="services.html">Relocation & Moving</a></li>
+            <li><a href="services.html">Freight & Logistics</a></li>
+            <li><a href="services.html">Event Transportation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="contact-list">
+            <li><i class="fas fa-envelope"></i> <a href="mailto:contactglanders@gmail.com">contactglanders@gmail.com</a></li>
+            <li><i class="fas fa-phone"></i> <a href="tel:+10000000000">+1 (000) 000-0000</a></li>
+            <li><i class="fas fa-clock"></i> 24/7 Available</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Move Monarch. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <a href="https://wa.me/10000000000" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
